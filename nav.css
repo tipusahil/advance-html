@@ -36,15 +36,15 @@ nav a:hover{
     
 }
 
-nav li .dropdown{
+nav li .dropdown1{
     display: none;
 
 }
 
-nav li:hover .dropdown{
+nav li:hover .dropdown1{
 /* ekane ei selector e bola hoyece: 
 
-nav er vitore thaka li item gulo hover korle,kuno ekta li item e jodi (.dropdown) name kuno class thake take select kora hoyece.
+nav er vitore thaka li item gulo hover korle,kuno ekta li item e jodi (.dropdown1) name kuno class thake take select kora hoyece.
 
 */
 
@@ -54,7 +54,27 @@ border-radius: 10px;
 padding-left:5px;
 }
 
-nav li .dropdown li{
+nav li .dropdown1 li{
 margin-top: 10px;
 padding: 5px;
 }
+
+/* 2nd dropdown er style */
+
+.dropdown2{
+    /* 2nd dropdwon2 menu ta hide thakbe. */
+    display: none;
+}
+
+.dropdown1 li:hover .dropdown2{
+    /* jokon protom (dropdown1) er li gulo hover kora hobe ,tkn li er vitore jodi (dropdown2) name kuno 2nd dropdwon thake seta dsiplay block hobe */
+display: block;
+background-color: navy;
+border-radius: 10px;
+padding-left:5px;
+}
+
+.dropdown > .dropdown2 li{
+    margin-top: 10px;
+    padding: 5px;
+    }
