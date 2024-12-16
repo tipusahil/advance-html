@@ -1,6 +1,7 @@
-nav  ul{
+nav > ul{
+
     display: flex;
-    /*  selector e (nav ul) evabe jodi select na kore onno table ba ,onno ul ta syle hoye jabe, tai specific vabe define kore select korte hobe, (nav er ul) tag k style korte cacci.  */
+    /*  selector e (nav > ul) evabe greaterthan (>) bracket diye bujano hoise j: nav tag er vitore immidiate ul ta select kora hocce, ortat nav tag jodi parent tag hoi taile tar vitore ul k chele tag, & chele tag er vitore aro ekta ul takle ,taile ota k (nav tag er nati)tag nav er nati ul,, mane protom ul k chele dhorle, ul er vitore thaka ul k nati dhorle  (nav > ul) eta mane bujalo j nav er vitore chele ul k select kora hocce, nati ul ba ,(chele er vitore thaka ul k) bujano hoini,  */
 }
 
 nav li{
@@ -33,4 +34,27 @@ nav a:hover{
     color: #ddd;
     border-radius: 10px;
     
+}
+
+nav li .dropdown{
+    display: none;
+
+}
+
+nav li:hover .dropdown{
+/* ekane ei selector e bola hoyece: 
+
+nav er vitore thaka li item gulo hover korle,kuno ekta li item e jodi (.dropdown) name kuno class thake take select kora hoyece.
+
+*/
+
+display: block;
+background-color: navy;
+border-radius: 10px;
+padding-left:5px;
+}
+
+nav li .dropdown li{
+margin-top: 10px;
+padding: 5px;
 }
