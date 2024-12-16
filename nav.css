@@ -1,0 +1,36 @@
+nav  ul{
+    display: flex;
+    /*  selector e (nav ul) evabe jodi select na kore onno table ba ,onno ul ta syle hoye jabe, tai specific vabe define kore select korte hobe, (nav er ul) tag k style korte cacci.  */
+}
+
+nav li{
+    list-style: none;
+    margin-right: 10px; 
+
+/* ekane (margin-right er (mr) )liklei margin right option show korbe,ar koshto kore margin right lika lagbena just (margin r m & right er r  liklei hobe.
+
+erokom prottekta multiple word wala property er prottekta word er protom letter lika enter korle oi property cole asbe.
+jmn: 
+     font-family: serif; 
+(ff) like enter korlei (font-family) cole asbe. word gulor protom letter lika enter korsi just,erokom shudo css e na, html,js, etc language e evabe shrotcut lika enter korlei property gulo cole asbe...
+*/
+  
+
+ 
+}
+
+
+nav  a{
+    text-decoration: none;
+    padding: 7px 12px;
+    background-color: #ababab;
+    color: #000;
+    border-radius: 10px;
+}
+nav a:hover{
+  padding: 7px 12px;
+    background-color: rgb(136, 4, 136);
+    color: #ddd;
+    border-radius: 10px;
+    
+}

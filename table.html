@@ -1,60 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table</title>
+    <link rel="stylesheet" href="nav.css">
+
 </head>
+
 <body>
-    
+
+<nav>
+<ul>
+
+<li><a href="advance_html.html">advance</a></li>
+<li><a href="form_important.html">form</a></li>
+<li><a href="table.html">table</a></li>
+<li><a href="nav.html">nav</a></li>
+
+</ul>
+</nav>
+
+
+
     <h1>table tag detail:</h1>
 
-<pre>
+    <pre>
 
     1. <thead>thead tag ta shorcut e th</thead>
 </pre>
 
+    <main>
+
+        <ul>
+
+            <li>table er upore caption dewar jonno : (caption) tag </li>
+            <li></li>
+            <li></li>
+            <li>table: (table) tag</li>
+            <li>table head: (thead)tag</li>
+            <li>table row: (tr) tag</li>
+            <li>table data: (td)tag</li>
+            <li>table header: (th)tag</li>
+            <li>table body: (tbody) tag</li>
+            <li>table footer: (tfoot) tag</li>
+            <li>table footer er ta jate prottekta column/ekdm seser row er full jaiga dokol kore tar jonno (td) tag er
+                virore (colspan) attribute er modde value 1/2/3/4 ... dile sei onujai footer ta som column er jonno span
+                kore nibe.</li>
+        </ul>
+
+        <table>
+            <th>name</th>
+            <th>roll</th>
+            <th>cgpa</th>
+            <th>subject</th>
+
+            <tr>
+                <td>sahil</td>
+                <td>33</td>
+                <td>3.4</td>
+                <td>math</td>
+            </tr>
+            <tr>
+                <td>siyam</td>
+                <td>12</td>
+                <td>3.2</td>
+                <td>english</td>
+            </tr>
+
+            <tr>
+                <td>tipu</td>
+                <td>22</td>
+                <td>2.4</td>
+                <td>physics</td>
+            </tr>
+
+            <tfoot>
+                <td colspan="4">total students =3</td>
+            </tfoot>
+            <!-- ekane tfoot tag vitore td tag er vitore (colspan)attribute er kaj holo footer er box ta jate prottekta colum e e pai tar jonno oi attribute use kora hoyece. & value 4 er jaigai 3 dile 3ta  colum er nise footer ta boshto . -->
+        </table>
 
 
-<table>
-<th>name</th>
-<th>roll</th>
-<th>cgpa</th>
-<th>subject</th>
 
-    <tr>
-        <td>sahil</td>
-        <td>33</td>
-        <td>3.4</td>
-        <td>math</td>
-    </tr>
-    <tr>
-        <td>siyam</td>
-        <td>12</td>
-        <td>3.2</td>
-        <td>english</td>
-    </tr>
 
-    <tr>
-        <td>tipu</td>
-        <td>22</td>
-        <td>2.4</td>
-        <td>physics</td>
-   </tr>
-
-</table>
+    </main>
 
 
 
-<style>
-    table{
-        border:1px solid;
-        border-collapse: collapse;
-    }
-    td,th{
-        border:1px solid;
-        padding:5px;
-    }
-</style>
+    <style>
+        table {
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid;
+            padding: 5px;
+        }
+    </style>
 </body>
+
 </html>
